@@ -1,0 +1,77 @@
+<!--Dropdown para el menú desktop-->
+<ul id="dropdown1" class="dropdown-content">
+  <li>
+    <a>Bogotá</a>
+  </li>
+  <li>
+    <a>Medellín</a>
+  </li>
+  <li>
+    <a>Cali</a>
+  </li>
+  <li>
+    <a>Cartagena</a>
+  </li>
+</ul>
+<!--Dropdown para el menú mobile-->
+<ul id="dropdown2" class="dropdown-content">
+  <li>
+    <a>Bogotá</a>
+  </li>
+  <li>
+    <a>Medellín</a>
+  </li>
+  <li>
+    <a>Cali</a>
+  </li>
+  <li>
+    <a>Cartagena</a>
+  </li>
+</ul>
+<nav class="red darken-4">
+  <div class="nav-wrapper">
+    <a class="brand-logo">
+      <img src="./assets/images/logo.png" width="230px" class="responsive-img">
+    </a>
+    <!--Menú desktop-->
+    <ul class="right hide-on-med-and-down">
+      <li>
+        <a>Inicio</a>
+      </li>
+      <li>
+        <a>Cartelera</a>
+      </li>
+      <li>
+        <a>Promociones</a>
+      </li>
+      <!-- Dropdown Trigger -->
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown1">
+          Ciudades
+          <i class="material-icons right">arrow_drop_down</i>
+        </a>
+      </li>
+    </ul>
+    <a data-target="mobile-demo" class="sidenav-trigger right">
+      <i class="material-icons">menu</i>
+    </a>
+  </div>
+</nav>
+<!--Menú mobile-->
+<ul class="sidenav red darken-4" id="mobile-demo">
+  <li>
+    <a class="white-text">Inicio</a>
+  </li>
+  <li>
+    <a class="white-text">Cartelera</a>
+  </li>
+  <li>
+    <a class="white-text">Promociones</a>
+  </li>
+  <li>
+    <a class="dropdown-trigger white-text" data-target="dropdown2">
+      Ciudades
+      <i class="material-icons right white-text">arrow_drop_down</i>
+    </a>
+  </li>
+</ul>
